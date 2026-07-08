@@ -28,6 +28,9 @@ html, body, .stApp {
     background: #080B12 !important;
     font-family: 'JetBrains Mono', 'Courier New', monospace;
 }
+</style>
+""", unsafe_allow_html=True)
+
 
 /* ── Metric boxes ─────────────────────────────────────── */
 [data-testid="metric-container"] {
