@@ -32,19 +32,17 @@ st.markdown("""
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&display=swap');
 
 html, body, .stApp {
-    background: #080B12 !important;
-    font-family: 'JetBrains Mono', 'Courier New', monospace;
+    background-color: #080B12 !important;
+    font-family: 'JetBrains Mono', monospace;
 }
 
-/* --- Metric boxes --- */
 [data-testid="metric-container"] {
-    background: linear-gradient(135deg, #10141F, #151A28);
-    border: 1px solid #1E2535;
-    border-radius: 10px;
+    background: linear-gradient(135deg, #10141F, #151A28) !important;
+    border: 1px solid #1E2535 !important;
+    border-radius: 10px !important;
 }
 </style>
 """, unsafe_allow_html=True)
-    padding: 12px 16px;
     box-shadow: 0 2px 12px rgba(0,0,0,0.4);
 }
 
