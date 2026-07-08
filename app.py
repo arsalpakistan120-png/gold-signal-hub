@@ -31,8 +31,7 @@ html, body, .stApp {
 </style>
 """, unsafe_allow_html=True)
 
-
-/* ── Metric boxes ─────────────────────────────────────── */
+/* --- Metric boxes --- */
 [data-testid="metric-container"] {
     background: linear-gradient(135deg, #10141F, #151A28);
     border: 1px solid #1E2535;
